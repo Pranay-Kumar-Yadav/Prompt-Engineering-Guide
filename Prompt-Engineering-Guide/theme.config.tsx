@@ -57,15 +57,15 @@ const config: DocsThemeConfig = {
     </>
   )},
   project: {
-    link: 'https://github.com/dair-ai/Prompt-Engineering-Guide',
+    link: 'https://github.com/Pranay-Kumar-Yadav/Prompt-Engineering-Guide',
   },
   chat: {
     link: 'https://discord.gg/YbMT8k6GfX',
   },
-  docsRepositoryBase: 'https://github.com/dair-ai/Prompt-Engineering-Guide/tree/main/',
+  docsRepositoryBase: 'https://github.com/Pranay-Kumar-Yadav/Prompt-Engineering-Guide/tree/main/',
   footer: {
     text: (
-      <div>Copyright © 2026 DAIR.AI</div>
+      <div>Copyright © 2026 Pranay Kumar Yadav</div>
     ),
   },
   search: {
