@@ -10,7 +10,7 @@ Motivated by the high interest in developing with LLMs, we have created this new
 
 🌐 [Prompt Engineering Guide (Web Version)](https://www.promptingguide.ai/)
 
-🎉 We are excited to launch our new prompt engineering, RAG, and AI Agents courses under the DAIR.AI Academy. [Join Now](https://academy.dair.ai/pricing)!
+🎉 We are excited to launch our new prompt engineering, RAG, and AI Agents courses under the B.Pranay Kumar Academy. [Join Now](https://academy.dair.ai/pricing)!
 
 The courses are meant to compliment this guide and provide a more hands-on approach to learning about prompt engineering, context engineering, and AI Agents. 
 
@@ -21,7 +21,7 @@ Happy Prompting!
 ---
 ## Announcements / Updates
 
-- 🎓 We now offer self-paced prompt engineering courses under our DAIR.AI Academy. [Join Now](https://academy.dair.ai/pricing)! 
+- 🎓 We now offer self-paced prompt engineering courses under our B.Pranay Kumar Academy. [Join Now](https://academy.dair.ai/pricing)! 
 - 🎓 New course on Prompt Engineering for LLMs announced! [Enroll here](https://academy.dair.ai/courses/introduction-prompt-engineering)!
 - 💼 We now offer several [services](https://www.promptingguide.ai/services) like corporate training, consulting, and talks.
 - 🌐 We now support 13 languages! Welcoming more translations.
@@ -118,8 +118,8 @@ You can also find the most up-to-date guides on our new website [https://www.pro
 
 We have published a 1 hour lecture that provides a comprehensive overview of prompting techniques, applications, and tools.
 - [Video Lecture](https://youtu.be/dOxUroR57xs)
-- [Notebook with code](https://github.com/dair-ai/Prompt-Engineering-Guide/blob/main/notebooks/pe-lecture.ipynb)
-- [Slides](https://github.com/dair-ai/Prompt-Engineering-Guide/blob/main/lecture/Prompt-Engineering-Lecture-Elvis.pdf)
+- [Notebook with code](https://github.com/Pranay-Kumar-Yadav/Prompt-Engineering-Guide/blob/main/notebooks/pe-lecture.ipynb)
+- [Slides](https://github.com/Pranay-Kumar-Yadav/Prompt-Engineering-Guide/blob/main/lecture/Prompt-Engineering-Lecture-Elvis.pdf)
 
 ---
 ## Running the guide locally
@@ -146,7 +146,7 @@ If you are using the guide for your work or research, please cite us as follows:
 ```
 @article{Saravia_Prompt_Engineering_Guide_2022,
 author = {Saravia, Elvis},
-journal = {https://github.com/dair-ai/Prompt-Engineering-Guide},
+journal = {https://github.com/Pranay-Kumar-Yadav/Prompt-Engineering-Guide},
 month = {12},
 title = {{Prompt Engineering Guide}},
 year = {2022}
@@ -155,7 +155,7 @@ year = {2022}
 
 ## License
 
-[MIT License](https://github.com/dair-ai/Prompt-Engineering-Guide/blob/main/LICENSE.md)
+[MIT License](https://github.com/Pranay-Kumar-Yadav/Prompt-Engineering-Guide/blob/main/LICENSE.md)
 
 
 Feel free to open a PR if you think something is missing here. Always welcome feedback and suggestions. Just open an issue!

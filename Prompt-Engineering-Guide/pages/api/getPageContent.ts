@@ -17,7 +17,7 @@ export default async function handler(
     }
 
     // Construct GitHub raw URL
-    const githubBaseUrl = 'https://raw.githubusercontent.com/dair-ai/Prompt-Engineering-Guide/main/pages';
+    const githubBaseUrl = 'https://raw.githubusercontent.com/Pranay-Kumar-Yadav/Prompt-Engineering-Guide/main/pages';
     const githubUrl = `${githubBaseUrl}/${pagePath}`;
 
     console.log('Fetching from GitHub:', githubUrl);

@@ -1,5 +1,5 @@
 ## Guides 🔮
-The following are a set of guides on prompt engineering developed by us (DAIR.AI). Guides are work in progress.  
+The following are a set of guides on prompt engineering developed by us (B.Pranay Kumar). Guides are work in progress.  
 
 - [Prompt Engineering - Introduction](/guides/prompts-intro.md)
 - [Prompt Engineering - Basic Prompting](/guides/prompts-basic-usage.md)

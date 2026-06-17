@@ -65,7 +65,7 @@ const config: DocsThemeConfig = {
   docsRepositoryBase: 'https://github.com/Pranay-Kumar-Yadav/Prompt-Engineering-Guide/tree/main/',
   footer: {
     text: (
-      <div>Copyright © 2026 Pranay Kumar Yadav</div>
+      <div>Copyright © 2026 B.Pranay Kumar</div>
     ),
   },
   search: {
