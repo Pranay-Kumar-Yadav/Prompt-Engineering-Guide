@@ -1,8 +1,8 @@
 # PAL (Program-Aided Language Models)
  
 import { FileTree } from 'nextra-theme-docs'
-import { CoursePromo, CoursesSection, CourseCard } from '../../components/CourseCard'
 import {Screenshot} from 'components/screenshot'
+
 import PAL from '../../img/pal.png'
 
 [Gao et al., (2022)](https://arxiv.org/abs/2211.10435) presents a method that uses LLMs to read natural language problems and generate programs as the intermediate reasoning steps. Coined, program-aided language models (PAL), it differs from chain-of-thought prompting in that instead of using free-form text to obtain solution it offloads the solution step to a programmatic runtime such as a Python interpreter.
@@ -18,9 +18,11 @@ These are the imports we need:
 
 ```python
 import openai
+
 from datetime import datetime
 from dateutil.relativedelta import relativedelta
 import os
+
 from langchain.llms import OpenAI
 from dotenv import load_dotenv
 ```
@@ -115,32 +117,3 @@ print(born)
 ```
 
 This will output the following: `02/27/1998`
-
-<CoursesSection title="Related Learning">
-  <CourseCard
-    tag="Course"
-    tagColor="blue"
-    title="Prompt Engineering for LLMs"
-    description="Master program-aided language models and code generation techniques for complex reasoning."
-    href="https://academy.dair.ai/courses/introduction-prompt-engineering"
-    level="Beginner"
-    duration="2 hours"
-  />
-  <CourseCard
-    tag="Course"
-    tagColor="purple"
-    title="Building Effective AI Agents"
-    description="Learn to build effective AI agents. Covers function calling, tool integration, and debugging agentic systems."
-    href="https://academy.dair.ai/courses/building-effective-ai-agents"
-    level="Intermediate"
-    duration="5 hours"
-  />
-</CoursesSection>
-
-<CoursePromo
-  title="Explore All Courses"
-  description="Discover our full catalog of AI and prompt engineering courses. From beginners to advanced practitioners."
-  href="https://academy.dair.ai/"
-  buttonText="Browse Academy"
-  promoCode="PROMPTING20"
-/>

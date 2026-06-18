@@ -72,19 +72,7 @@ const config: DocsThemeConfig = {
     placeholder: 'Search...',
   },
   gitTimestamp: ({ timestamp }) => (
-    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', width: '100%' }}>
-      <div>Last updated on {timestamp.toDateString()}</div>
-      <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-        <span>Sponsored by</span>
-        <a href="https://serpapi.com/" target="_blank" rel="noopener noreferrer">
-          <img 
-            src="https://cdn.rawgit.com/standard/standard/master/docs/logos/serpapi.png" 
-            alt="SerpAPI" 
-            style={{ height: '24px', width: 'auto', verticalAlign: 'middle' }}
-          />
-        </a>
-      </div>
-    </div>
+    <div>Last updated on {timestamp.toDateString()}</div>
   ),
   components: {
     pre: Pre,
@@ -111,39 +99,7 @@ const config: DocsThemeConfig = {
         {children}
       </>
     ) as React.ReactElement;
-  },
-  navbar: {
-    extraContent: (
-      <a
-        href="/services"
-        style={{
-          padding: '6px 16px',
-          backgroundColor: '#8b5cf6',
-          color: 'white',
-          borderRadius: '6px',
-          fontWeight: 600,
-          textDecoration: 'none',
-          display: 'inline-flex',
-          alignItems: 'center',
-          gap: '4px',
-          transition: 'all 0.2s ease',
-          border: 'none',
-          cursor: 'pointer',
-          whiteSpace: 'nowrap',
-        }}
-        onMouseOver={(e) => {
-          e.currentTarget.style.backgroundColor = '#7c3aed'
-          e.currentTarget.style.transform = 'scale(1.05)'
-        }}
-        onMouseOut={(e) => {
-          e.currentTarget.style.backgroundColor = '#8b5cf6'
-          e.currentTarget.style.transform = 'scale(1)'
-        }}
-      >
-        ✨ Services
-      </a>
-    )
-  },
+  }
 }
 
 export default config

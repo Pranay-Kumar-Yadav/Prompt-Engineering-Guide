@@ -1,7 +1,6 @@
 # Zero-Shot Prompting
 
 import {Bleed} from 'nextra-theme-docs'
-import { CoursePromo, CoursesSection, CourseCard } from '../../components/CourseCard'
 
 <iframe width="100%"
   height="415px"
@@ -31,32 +30,3 @@ Note that in the prompt above we didn't provide the model with any examples of t
 Instruction tuning has been shown to improve zero-shot learning [Wei et al. (2022)](https://arxiv.org/pdf/2109.01652.pdf). Instruction tuning is essentially the concept of finetuning models on datasets described via instructions. Furthermore, [RLHF](https://arxiv.org/abs/1706.03741) (reinforcement learning from human feedback) has been adopted to scale instruction tuning wherein the model is aligned to better fit human preferences. This recent development powers models like ChatGPT. We will discuss all these approaches and methods in upcoming sections.
 
 When zero-shot doesn't work, it's recommended to provide demonstrations or examples in the prompt which leads to few-shot prompting. In the next section, we demonstrate few-shot prompting.
-
-<CoursesSection title="Related Learning">
-  <CourseCard
-    tag="Course"
-    tagColor="blue"
-    title="Prompt Engineering for LLMs"
-    description="Master zero-shot, few-shot, and advanced prompting techniques to unlock the full potential of large language models."
-    href="https://academy.dair.ai/courses/introduction-prompt-engineering"
-    level="Beginner"
-    duration="2 hours"
-  />
-  <CourseCard
-    tag="Course"
-    tagColor="purple"
-    title="Building Effective AI Agents"
-    description="Learn to build effective AI agents. Covers function calling, tool integration, and debugging agentic systems."
-    href="https://academy.dair.ai/courses/building-effective-ai-agents"
-    level="Intermediate"
-    duration="5 hours"
-  />
-</CoursesSection>
-
-<CoursePromo
-  title="Explore All Courses"
-  description="Discover our full catalog of AI and prompt engineering courses. From beginners to advanced practitioners."
-  href="https://academy.dair.ai/"
-  buttonText="Browse Academy"
-  promoCode="PROMPTING20"
-/>

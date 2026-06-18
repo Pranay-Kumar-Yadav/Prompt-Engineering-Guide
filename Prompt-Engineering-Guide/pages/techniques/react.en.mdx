@@ -1,10 +1,10 @@
 # ReAct Prompting
 
 import { FileTree } from 'nextra-theme-docs'
-import { CoursePromo, CoursesSection, CourseCard } from '../../components/CourseCard'
 import {Screenshot} from 'components/screenshot'
 import REACT from '../../img/react.png'
 import REACT1 from '../../img/react/table1.png'
+
 import REACT2 from '../../img/react/alfworld.png'
 
 [Yao et al., 2022](https://arxiv.org/abs/2210.03629) introduced a framework named ReAct where LLMs are used to generate both *reasoning traces* and *task-specific actions* in an interleaved manner. 
@@ -128,6 +128,7 @@ First, let's install and import the necessary libraries:
 # import libraries
 import openai
 import os
+
 from langchain.llms import OpenAI
 from langchain.agents import load_tools
 from langchain.agents import initialize_agent
@@ -186,32 +187,3 @@ The output we get is as follows:
 We adapted the example from the [LangChain documentation](https://python.langchain.com/docs/modules/agents/agent_types/react), so credit goes to them. We encourage the learner to explore different combination of tools and tasks. 
 
 You can find the notebook for this code here: https://github.com/Pranay-Kumar-Yadav/Prompt-Engineering-Guide/blob/main/notebooks/react.ipynb
-
-<CoursesSection title="Related Learning">
-  <CourseCard
-    tag="Course"
-    tagColor="blue"
-    title="Prompt Engineering for LLMs"
-    description="Master ReAct prompting, chain-of-thought, and advanced reasoning techniques for complex tasks."
-    href="https://academy.dair.ai/courses/introduction-prompt-engineering"
-    level="Beginner"
-    duration="2 hours"
-  />
-  <CourseCard
-    tag="Course"
-    tagColor="purple"
-    title="Building Effective AI Agents"
-    description="Learn to build effective AI agents with ReAct patterns. Covers function calling, tool integration, and agentic systems."
-    href="https://academy.dair.ai/courses/building-effective-ai-agents"
-    level="Intermediate"
-    duration="5 hours"
-  />
-</CoursesSection>
-
-<CoursePromo
-  title="Explore All Courses"
-  description="Discover our full catalog of AI and prompt engineering courses. From beginners to advanced practitioners."
-  href="https://academy.dair.ai/"
-  buttonText="Browse Academy"
-  promoCode="PROMPTING20"
-/>
